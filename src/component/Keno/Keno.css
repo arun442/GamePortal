@@ -1,0 +1,114 @@
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../../kenobg.png');
+    background-size: cover;
+    background-position: center;
+}
+#numbergrid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+}
+.number {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.number.selected {
+    background-color: #ffcc00;
+}
+.number.drawn {
+    background-color: #ff4444;
+    color: #fff;
+}
+.number.matched {
+    background-color: #66bb6a;
+    color: #fff;
+}
+#controls {
+    margin-bottom: 20px;
+}
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+th {
+    background-color: #f0f0f0;
+}
+.highlighted-column {
+    background-color: #f0f0f0;
+}
+.horizontal-scroll {
+    overflow-x: auto;
+}
+.btn3 {
+     background: white;
+        font-family: inherit;
+        padding: 0.6em 1.3em;
+        font-weight: 900;
+        font-size: 18px;
+        border: 3px solid black;
+        border-radius: 0.4em;
+        box-shadow: 0.1em 0.1em;
+        cursor: pointer;
+        margin: auto;
+      }
+      
+      .btn3:hover {
+        transform: translate(-0.05em, -0.05em);
+        box-shadow: 0.15em 0.15em;
+      }
+      
+      .btn3:active {
+        transform: translate(0.05em, 0.05em);
+        box-shadow: 0.05em 0.05em;
+      }
+      .winningrewardg5{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        animation: movewallet 1.5s ;
+      }
+      .winningrewardg51{
+        position: absolute;
+        top: 55%;
+        left: 30%;
+        animation: movewallet 2.5s ;
+      }
+      .winningrewardg52{
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        animation: movewallet 2s ;
+      }
+      @keyframes movewallet {
+        0% {
+        }
+        100% {
+          left: 65%;
+          top: 2%;
+        }
+    }

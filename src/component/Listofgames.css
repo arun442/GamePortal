@@ -1,0 +1,71 @@
+.container1{
+    background-image: url('../gamingbg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+}
+.btn1 {
+display: none;    background: white;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .btn1:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+  .btn1:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+
+  .card1:hover .btn1{
+    position: relative;
+    transition: display 2s;
+    display: block;
+
+  }
+
+  .card1:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s;
+cursor: pointer;
+  }
+
+  .card1 .card-body{
+    /* opacity: 0; */
+    color: white;
+  font-size: 40px;
+  font-family: poppins;
+  font-weight: bolder;
+  }
+  .btnfeedback {
+        font-family: inherit;
+        padding: 0.6em 1.3em;
+        font-weight: 900;
+        font-size: 18px;
+        border: 3px solid black;
+        border-radius: 0.4em;
+        box-shadow: 0.1em 0.1em;
+        cursor: pointer;
+        margin: auto;
+      }
+      
+      .btnfeedback:hover {
+        transform: translate(-0.05em, -0.05em);
+        box-shadow: 0.15em 0.15em;
+      }
+      
+      .btnfeedback:active {
+        transform: translate(0.05em, 0.05em);
+        box-shadow: 0.05em 0.05em;
+      }

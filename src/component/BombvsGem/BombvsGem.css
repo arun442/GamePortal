@@ -1,0 +1,174 @@
+.container2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url('../../treasuremap.jpg ');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100vh;
+    /* column-gap: 160px; */
+    margin: 0;
+    font-weight: bolder;
+  }
+  
+  .game-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px; /* Added for spacing */
+  }
+
+  .game-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    /* background-color: #99999996; */
+  }
+
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-right: 50px; */
+    color:black;
+        height: fit-content;
+padding: 10px;
+  }
+.titletext{
+  font-size: 32px;
+  font-family: 'poppins';
+  font-weight: bolder;
+  text-align: center;
+  color:#fe8600;
+  transition: all 0.5s ease-in-out;
+  -webkit-text-stroke: #fff;
+-webkit-text-stroke-width: 1px;
+text-shadow: 2px 2px 10px #fe8600;
+}
+  .input-container {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  label, span {
+    font-size: 24px;
+  }
+
+.inputboxes {
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 10px;
+
+    /* width: 100px; */
+    /* text-align: right; */
+  }
+
+  #begin, #add-money, #cash-out {
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, #CCCCCC, #999999);
+    border: 3px solid black;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+  #begin:hover, #add-money:hover, #cash-out:hover {
+    background-image: linear-gradient(to bottom, #999999, #CCCCCC);
+  }
+
+  .square {
+    width: 100px;
+    height: 95px;
+    background-image: url('../../treasure-chest.png');
+    background-size: cover;
+    /* border: 3px solid gray;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    cursor:pointer;
+    margin: 5px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+
+  .square.clicked {
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  #current-earnings, #wallet-amount {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: white;
+    text-align: right;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+
+  .popup input[type="number"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .popup button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .popup button:hover {
+    background-color: #45a049;
+  }
+
+  .popup-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+  .winningrewardg4{
+    position: absolute;
+    top: 58%;
+    left: 10%;
+    animation: movewallet 1.5s ;
+  }
+  .winningrewardg41{
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    animation: movewallet 2.5s ;
+  }
+  .winningrewardg42{
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    animation: movewallet 2s ;
+  }
+  @keyframes movewallet {
+    0% {
+    }
+    100% {
+      left: 65%;
+      top: 2%;
+    }
+}

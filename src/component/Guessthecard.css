@@ -1,0 +1,69 @@
+.container3 {
+    /*flex-direction: column;
+    align-items: center;*/
+width: 100%;    
+background-image: url('../guesscard4.jpg');
+background-size: cover;
+color: white;
+}
+/* 5376
+3584 */
+
+.options {
+    margin-bottom: 20px;
+}
+
+.deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	
+}
+
+.card {
+    width: 120px;
+    height: 160px !important;
+    margin: 10px;
+    background-image: url('./images/back_of_card.png');
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.card.clicked {
+    transform: rotateY(360deg);
+	/*animation-iteration-count:2;*/
+}
+
+.deck-overflow{
+overflow: scroll;
+    height: 90vh;
+    scrollbar-width: thin;
+    scrollbar-color: #007 #acb1c3;
+    overflow-x: hidden;
+}
+.winningrewardg2{
+    position: absolute;
+    top: 58%;
+    left: -10%;
+    animation: movewallet 1.5s ;
+  }
+  .winningrewardg21{
+    position: absolute;
+    top: 53%;
+    left: -10%;
+    animation: movewallet 2.5s ;
+  }
+  .winningrewardg22{
+    position: absolute;
+    top: 68%;
+    left: -10%;
+    animation: movewallet 2s ;
+  }
+  @keyframes movewallet {
+    0% {
+    }
+    100% {
+      left: 60%;
+      top: 5%;
+    }
+}

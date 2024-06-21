@@ -1,0 +1,26 @@
+.winningrewardg3{
+    position: absolute;
+    top: 58%;
+    left: 30%;
+    animation: movewallet 1.5s ;
+  }
+  .winningrewardg31{
+    position: absolute;
+    top: 53%;
+    left: 30%;
+    animation: movewallet 2.5s ;
+  }
+  .winningrewardg32{
+    position: absolute;
+    top: 68%;
+    left: 30%;
+    animation: movewallet 2s ;
+  }
+  @keyframes movewallet {
+    0% {
+    }
+    100% {
+      left: 65%;
+      top: 5%;
+    }
+}

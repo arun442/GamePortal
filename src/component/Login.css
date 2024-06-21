@@ -1,0 +1,97 @@
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root{
+    color: white !important;
+}
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+border: 5px solid;
+    border-color:white;
+    color: white !important;
+  }
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: 5px solid;
+    border-color: white !important;
+    color: white !important;
+
+  }
+  .MuiInputBase-input {
+    border: 5px solid;
+    color: white !important;
+  }
+  .container6{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image:url("../pcjoystickbg4.jpg");
+    background-size: cover;
+  }
+  .icnbtn{
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+  }
+  .inputlogin {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  .inputlogin input {
+    font-size: 100%;
+    width: 100%;
+    color: white;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(141, 109, 255);
+    background-color: transparent;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .inputlogin label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(255, 255, 255);
+  }
+  
+  .inputlogin :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: #212121;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(37, 37, 211);
+  }
+  .buttonlogin {
+    width: 100%;
+    background: rgb(141, 109, 255);
+    margin-top: 10px;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+  }
+  
+  .buttonlogin:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+  .buttonlogin:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+  
